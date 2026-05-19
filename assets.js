@@ -15,53 +15,53 @@ const Assets = (() => {
   // アセット定義マップ  key → 相対パス
   // ─────────────────────────────────────────────
   const MANIFEST = {
-    // ■ enemies
-    'fruit.png'         : 'assets/enemies/fruit.png',
-    'soda_ice.png'      : 'assets/enemies/soda_ice.png',
-    'macaron.png'       : 'assets/enemies/macaron.png',
-    'pudding.png'       : 'assets/enemies/pudding.png',
-    'shortcake.png'     : 'assets/enemies/shortcake.png',
-    'bread.png'         : 'assets/enemies/bread.png',
-    'onigiri.png'       : 'assets/enemies/onigiri.png',
-    'pasta.png'         : 'assets/enemies/pasta.png',
-    'hamburger.png'     : 'assets/enemies/hamburger.png',
-    'shoyu_ramen.png'   : 'assets/enemies/shoyu_ramen.png',
-    'butter.png'        : 'assets/enemies/butter.png',
-    'french_fries.png'  : 'assets/enemies/french_fries.png',
-    'steak.png'         : 'assets/enemies/steak.png',
-    'karaage.png'       : 'assets/enemies/karaage.png',
-    'backfat_ramen.png' : 'assets/enemies/backfat_ramen.png',
-    'beer.png'          : 'assets/enemies/beer.png',
-    'wine.png'          : 'assets/enemies/wine.png',
-    'tequila.png'       : 'assets/enemies/tequila.png',
-    'cheese_plate.png'  : 'assets/enemies/cheese_plate.png',
-    'pizza.png'         : 'assets/enemies/pizza.png',
-
+        // ■ enemies
+    'fruit.png'         : 'fruit.png',
+    'soda_ice.png'      : 'soda_ice.png',
+    'macaron.png'       : 'macaron.png',
+    'pudding.png'       : 'pudding.png',
+    'shortcake.png'     : 'shortcake.png',
+    'bread.png'         : 'bread.png',
+    'onigiri.png'       : 'onigiri.png',
+    'pasta.png'         : 'pasta.png',
+    'hamburger.png'     : 'hamburger.png',
+    'shoyu_ramen.png'   : 'shoyu_ramen.png',
+    'butter.png'        : 'butter.png',
+    'french_fries.png'  : 'french_fries.png',
+    'steak.png'         : 'steak.png',
+    'karaage.png'       : 'karaage.png',
+    'backfat_ramen.png' : 'backfat_ramen.png',
+    'beer.png'          : 'beer.png',
+    'wine.png'          : 'wine.png',
+    'tequila.png'       : 'tequila.png',
+    'cheese_plate.png'  : 'cheese_plate.png',
+    'pizza.png'         : 'pizza.png',
+ 
     // ■ items
-    'item_dumbbell.png' : 'assets/items/item_dumbbell.png',
-    'item_macho.png'    : 'assets/items/item_machoa.png',
-
+    'item_dumbbell.png' : 'item_dumbbell.png',
+    'item_macho.png'    : 'item_machoa.png',
+ 
     // ■ ui
-    'title_bg'          : 'assets/backgrounds/title_bg.webp',
-    'title_logo'        : 'assets/ui/title_logo.png',
-    'result_bg'         : 'assets/backgrounds/result_bg.webp',
-    'rank_S'            : 'assets/ui/rank_S.png',
-    'rank_A'            : 'assets/ui/rank_A.png',
-    'rank_B'            : 'assets/ui/rank_B.png',
-    'rank_C'            : 'assets/ui/rank_C.png',
-    'stage2_tutorial'   : 'assets/ui/stage2_tutorial.png',
-    'stage3_tutorial'   : 'assets/ui/stage3_tutorial.png',
-    'stage4_tutorial'   : 'assets/ui/stage4_tutorial.png',
-    'endless_tutorial_01': 'assets/ui/endless_tutorial_01.png',
-    'endless_tutorial_02': 'assets/ui/endless_tutorial_02.png',
-    'endless_tutorial_03': 'assets/ui/endless_tutorial_03.png',
-    'endless_result'    : 'assets/ui/endless_result.png',
-
+    'title_bg'          : 'title_bg.webp',
+    'title_logo'        : 'title_logo.png',
+    'result_bg'         : 'result_bg.webp',
+    'rank_S'            : 'rank_S.png',
+    'rank_A'            : 'rank_A.png',
+    'rank_B'            : 'rank_B.png',
+    'rank_C'            : 'rank_C.png',
+    'stage2_tutorial'   : 'stage2_tutorial.png',
+    'stage3_tutorial'   : 'stage3_tutorial.png',
+    'stage4_tutorial'   : 'stage4_tutorial.png',
+    'endless_tutorial_01': 'endless_tutorial_01.png',
+    'endless_tutorial_02': 'endless_tutorial_02.png',
+    'endless_tutorial_03': 'endless_tutorial_03.png',
+    'endless_result'    : 'endless_result.png',
+ 
     // ■ player
-    'player_ship'       : 'assets/player/player_ship.png',
-
+    'player_ship'       : 'player_ship.png',
+ 
     // ■ backgrounds
-    'stage_bg'          : 'assets/backgrounds/stage_bg.webp',
+    'stage_bg'          : 'stage_bg.webp',
   };
 
   // ロード済み画像キャッシュ  key → HTMLImageElement
